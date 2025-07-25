@@ -45,3 +45,17 @@ include "%H/.local/share/omarchy/default/xcompose"
 <Multi_key> <space> <n> : "$OMARCHY_USER_NAME"
 <Multi_key> <space> <e> : "$OMARCHY_USER_EMAIL"
 EOF
+
+mkdir -p ~/.local/share/fonts
+
+# FiraCode iScript
+wget -P ~/.local/share/fonts https://github.com/kencrocken/FiraCodeiScript/blob/master/FiraCodeiScript-Bold.ttf
+wget -P ~/.local/share/fonts https://github.com/kencrocken/FiraCodeiScript/blob/master/FiraCodeiScript-Italic.ttf
+wget -P ~/.local/share/fonts https://github.com/kencrocken/FiraCodeiScript/blob/master/FiraCodeiScript-Regular.ttf
+
+# bat theme
+mkdir -p "$(bat --config-dir)"
+mkdir -p "$(bat --config-dir)/themes"
+wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme
+echo "--theme=\"Catppuccin Mocha\"" >>config
+bat cache --build

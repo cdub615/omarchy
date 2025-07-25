@@ -5,7 +5,7 @@ PATH="$PATH:$HOME/.local/share/omarchy/bin"
 
 show_ascii_art() {
   source ~/.local/share/omarchy/ansi.sh
-  echo "                                                                                 $OMARCHY_VERSION"
+  echo "                                                                                                                   $OMARCHY_VERSION"
 }
 
 main_menu() {
@@ -138,7 +138,7 @@ setup_docker_dbs() {
 }
 
 open_manual() {
-  setsid chromium --new-window --ozone-platform=wayland --app="https://manuals.omamix.org/2/the-omarchy-manual" >/dev/null 2>&1 &
+  setsid vivaldi --new-window --ozone-platform=wayland --app="https://manuals.omamix.org/2/the-omarchy-manual" >/dev/null 2>&1 &
   clear
 }
 

@@ -18,6 +18,12 @@ for f in ~/.local/share/omarchy/install/*.sh; do
   source "$f"
 done
 
+# Enable ssh
+sudo systemctl enable sshd
+
+# set shell as zsh
+chsh -s $(which zsh)
+
 # Ensure locate is up to date now that everything has been installed
 sudo updatedb
 

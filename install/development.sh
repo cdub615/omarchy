@@ -5,4 +5,7 @@ yay -S --noconfirm --needed \
   imagemagick \
   mariadb-libs postgresql-libs \
   github-cli \
-  lazygit lazydocker-bin
+  lazygit lazydocker-bin \
+  bitwarden aws-cli-v2 \
+  aws-session-manager-plugin \
+  bitwarden-cli
