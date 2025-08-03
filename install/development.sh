@@ -6,6 +6,6 @@ yay -S --noconfirm --needed \
   mariadb-libs postgresql-libs \
   github-cli \
   lazygit lazydocker-bin \
-  bitwarden aws-cli-v2 \
+  bitwarden \
   aws-session-manager-plugin \
   bitwarden-cli

@@ -5,8 +5,10 @@ yay -S --noconfirm --needed \
   fd eza fzf ripgrep zoxide bat jq \
   wl-clipboard fastfetch btop \
   man tldr less whois plocate bash-completion \
-  alacritty ghostty age tmux yazi yp-dlp \
-  zsh openssh npm pnpm oh-my-zsh zsh-theme-powerlevel10k-git
+  alacritty ghostty age tmux yazi yt-dlp \
+  vi zsh openssh npm pnpm zsh-theme-powerlevel10k-git
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
