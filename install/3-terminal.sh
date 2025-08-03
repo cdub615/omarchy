@@ -7,14 +7,3 @@ yay -S --noconfirm --needed \
   man tldr less whois plocate bash-completion \
   alacritty ghostty age tmux yazi yt-dlp \
   vi zsh openssh npm pnpm zsh-theme-powerlevel10k-git
-
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
-  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-git clone https://github.com/zsh-users/zsh-autosuggestions.git \
-  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
-  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
