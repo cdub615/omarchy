@@ -7,5 +7,4 @@ yay -S --noconfirm --needed \
   github-cli \
   lazygit lazydocker-bin \
   bitwarden \
-  aws-session-manager-plugin \
   bitwarden-cli
