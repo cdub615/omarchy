@@ -59,3 +59,8 @@ mkdir -p "$(bat --config-dir)/themes"
 wget -P "$(bat --config-dir)/themes" https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Mocha.tmTheme
 echo "--theme=\"Catppuccin Mocha\"" >>config
 bat cache --build
+
+# Use default zshrc
+echo "source ~/.local/share/omarchy/default/zsh/p10k.zsh" >~/.p10k.zsh
+echo "source ~/.local/share/omarchy/default/zsh/tmux.conf" >~/.tmux.conf
+echo "source ~/.local/share/omarchy/default/zsh/zshrc" >~/.zshrc
