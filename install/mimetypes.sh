@@ -14,7 +14,7 @@ xdg-mime default imv.desktop image/tiff
 xdg-mime default org.gnome.Evince.desktop application/pdf
 
 # Use Vivaldi as the default browser
-xdg-settings set default-web-browser vivaldi.desktop
+xdg-settings set default-web-browser vivaldi-stable.desktop
 xdg-mime default vivaldi.desktop x-scheme-handler/http
 xdg-mime default vivaldi.desktop x-scheme-handler/https
 
