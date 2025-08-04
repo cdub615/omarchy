@@ -64,5 +64,3 @@ bat cache --build
 echo "source ~/.local/share/omarchy/default/zsh/p10k.zsh" >~/.p10k.zsh
 echo "source ~/.local/share/omarchy/default/zsh/tmux.conf" >~/.tmux.conf
 echo "source ~/.local/share/omarchy/default/zsh/zshrc" >~/.zshrc
-
-bash ~/.local/share/omarchy/bin/omarchy-theme-install https://github.com/TylerDurham/omarchy-catppuccin-mocha.git
